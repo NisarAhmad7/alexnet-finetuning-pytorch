@@ -37,12 +37,12 @@ data/train/
         img3.jpg
         img4.jpg
 -> Run Training
-python train.py
+`python train.py`
 -> Model Details
 Model: AlexNet (pretrained on ImageNet)
 Task: Image Classification
-Loss: CrossEntropyLoss
-Optimizer: Adam
+`Loss: CrossEntropyLoss`
+`Optimizer: Adam`
 -> Data Augmentation
 Resize
 Random Crop
@@ -54,6 +54,6 @@ The finetuned model will be saved as:
 
 alexnet_finetuned.pth
 -> Tech Stack
-Python
-PyTorch
-Torchvision
+`Python`
+`PyTorch`
+`Torchvision
