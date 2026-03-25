@@ -23,8 +23,9 @@ This project demonstrates how to finetune a pretrained AlexNet model on a custom
 
 ##  Installation
 
-```bash
+```python 
 pip install -r requirements.txt
+```
 -> Dataset Structure
 
 Your dataset should be organized like this:
@@ -41,8 +42,8 @@ data/train/
 -> Model Details
 Model: AlexNet (pretrained on ImageNet)
 Task: Image Classification
-`Loss: CrossEntropyLoss`
-`Optimizer: Adam`
+Loss: `CrossEntropyLoss`
+Optimizer:`Adam`
 -> Data Augmentation
 Resize
 Random Crop
@@ -56,4 +57,4 @@ alexnet_finetuned.pth
 -> Tech Stack
 `Python`
 `PyTorch`
-`Torchvision
+`Torchvision`
